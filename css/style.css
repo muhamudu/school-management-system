@@ -1,0 +1,168 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.9s;
+  animation-name: animatetop;
+  animation-duration: 0.9s;
+}
+
+.bg-color1 {
+  background-color: chocolate;
+  color: #fefefe;
+}
+.bg-color2 {
+  background-color: darkslategrey;
+  color: #fefefe;
+}
+.bg-color3 {
+  background-color: rgb(245, 151, 198);
+  color: #fefefe;
+}
+.bg-color4 {
+  background-color: indigo;
+  color: #fefefe;
+}
+.bg-color1:hover,
+.bg-color2:hover,
+.bg-color3:hover,
+.bg-color4:hover {
+  background-color: rgba(8, 2, 2, 0.603);
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close2 {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #ffd42a;
+  color: black;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+#header {
+  background: #000;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  margin-top: -21px;
+}
+.address {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.address address {
+  font-style: normal;
+  line-height: 1.429em;
+  float: left;
+  width: 295px;
+}
+.address address strong {
+  color: #008cc4;
+  width: 94px !important;
+  width: 91px;
+  float: left;
+}
+.address .extra-wrap {
+  float: left;
+  width: 380px;
+}
+.address p {
+  margin: 0;
+}
+#main-bg-color {
+  background-color: orange;
+  border-color: #ffffff;
+  border: 0px;
+  color: #fff;
+}
+.list-group a {
+  color: #0000ff;
+}
+@media (max-width: 768px) {
+  #large-logo {
+    display: none;
+  }
+}
+#footer {
+  width: 100%;
+  background-color: #1e1e1e;
+  text-align: center;
+  color: #ffffff;
+  height: 80px;
+  padding-top: 15px;
+}

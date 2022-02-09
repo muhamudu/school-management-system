@@ -1,0 +1,24 @@
+.container {
+    background-color: #ffffff;
+    padding: 60px;
+    /* width: 70%; */
+    height: 100%;
+}
+.bar{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    opacity: 0.8;
+}
+.get{
+    float: right;
+    margin-right: 10px;
+    margin-top: 6px;
+    font-size: 25px;
+    color: #fff;
+    background: #000000;
+    border: 0px #000000;
+}
+.get:hover{
+    color: grey;
+}
